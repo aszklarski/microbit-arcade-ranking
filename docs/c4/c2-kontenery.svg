@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 1040" width="1560" height="1040" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B6B"/></marker><marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L11,6 L0,12" fill="none" stroke="#6B6B6B" stroke-width="1.6"/></marker></defs>
+<rect width="1560" height="1040" fill="#FFFFFF"/>
+<text x="40.0" y="48.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#111" text-anchor="start">[Kontenery] micro:bit Arcade Ranking</text>
+<text x="40.0" y="75.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#555" text-anchor="start">C4 – poziom 2. Z jakich uruchamialnych części składa się system i jak się komunikują.</text>
+<rect x="40" y="350" width="1480" height="650" rx="10" fill="none" stroke="#8A8A8A" stroke-width="1.6" stroke-dasharray="9 6"/>
+<text x="58.0" y="964.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333" text-anchor="start">micro:bit Arcade Ranking</text>
+<text x="58.0" y="983.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#666" text-anchor="start">[System]</text>
+<line x1="697.2" y1="283.1" x2="323.7" y2="426.6" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="780.0" y1="285.0" x2="780.0" y2="424.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="862.8" y1="283.1" x2="1236.3" y2="426.6" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="240.0" y1="603.0" x2="240.0" y2="746.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="383.0" y1="835.0" x2="636.0" y2="835.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="780.0" y1="603.0" x2="780.0" y2="746.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="1177.4" y1="599.5" x2="923.4" y2="750.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="923.0" y1="835.0" x2="1176.0" y2="835.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="630" y="150" width="300" height="132" rx="36" fill="#08427B" stroke="#073B6F" stroke-width="1.5"/>
+<circle cx="780.0" cy="124" r="34" fill="#08427B"/>
+<text x="780.0" y="198.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gracz</text>
+<text x="780.0" y="214.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#D6E4F5" text-anchor="middle">[Osoba]</text>
+<text x="780.0" y="235.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Gra na micro:bicie i sprawdza ranking w</text>
+<text x="780.0" y="251.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">przeglądarce oraz na wyświetlaczu.</text>
+<rect x="100" y="430" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="240.0" y="486.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gra</text>
+<text x="240.0" y="502.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: micro:bit, MakeCode]</text>
+<text x="240.0" y="523.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Gra zręcznościowa. Po rozgrywce</text>
+<text x="240.0" y="539.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">wysyła identyfikator gracza (PID) i</text>
+<text x="240.0" y="555.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">wynik (SCORE).</text>
+<rect x="640" y="430" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="780.0" y="494.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Strona WWW z rankingiem</text>
+<text x="780.0" y="510.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: JavaScript, przeglądarka]</text>
+<text x="780.0" y="531.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Pobiera wyniki przez fetch() i</text>
+<text x="780.0" y="547.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">wyświetla ranking online.</text>
+<rect x="1180" y="430" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="1320.0" y="494.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Wyświetlacz rankingu</text>
+<text x="1320.0" y="510.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: Arduino + OLED/LCD, C++]</text>
+<text x="1320.0" y="531.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Pobiera ranking z Web API i pokazuje</text>
+<text x="1320.0" y="547.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Top 10 na wyświetlaczu.</text>
+<rect x="100" y="750" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="240.0" y="806.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Bramka wyników</text>
+<text x="240.0" y="822.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: Arduino + Wi-Fi, C++]</text>
+<text x="240.0" y="843.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Odbiera dane z micro:bita, zamienia</text>
+<text x="240.0" y="859.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">bity na obiekt wyniku (ID, SCORE,</text>
+<text x="240.0" y="875.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">TIMESTAMP) i wysyła go do Web API.</text>
+<rect x="640" y="750" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="780.0" y="806.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Web API</text>
+<text x="780.0" y="822.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: C#, ASP.NET Core]</text>
+<text x="780.0" y="843.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">CRUD wyników. GameController: POST</text>
+<text x="780.0" y="859.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">AddScore zapisuje wynik, GET zwraca</text>
+<text x="780.0" y="875.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">listę wyników.</text>
+<path d="M1180,766 L1180,904 A140.0,16 0 0 0 1460,904 L1460,766 A140.0,16 0 0 0 1180,766 Z" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<ellipse cx="1320.0" cy="766" rx="140.0" ry="16" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="1320.0" y="830.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Baza danych</text>
+<text x="1320.0" y="846.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: relacyjna baza SQL]</text>
+<text x="1320.0" y="867.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Tabela wyników z kolumnami ID, PID,</text>
+<text x="1320.0" y="883.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">SCORE, TS.</text>
+<rect x="1190" y="40" width="330" height="196" rx="8" fill="#FAFAFA" stroke="#D0D0D0"/>
+<text x="1206.0" y="66.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#333" text-anchor="start">Legenda</text>
+<rect x="1206" y="91" width="36" height="15" rx="7" fill="#08427B"/>
+<circle cx="1224" cy="88" r="6" fill="#08427B"/>
+<text x="1254.0" y="100.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Osoba</text>
+<rect x="1206" y="114" width="36" height="22" rx="4" fill="none" stroke="#8A8A8A" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="1254.0" y="130.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Granica systemu</text>
+<rect x="1206" y="144" width="36" height="22" rx="4" fill="#438DD5"/>
+<text x="1254.0" y="160.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Kontener</text>
+<path d="M1206,178 L1206,192 A18,4 0 0 0 1242,192 L1242,178 A18,4 0 0 0 1206,178 Z" fill="#438DD5"/>
+<ellipse cx="1224" cy="178" rx="18" ry="4" fill="#438DD5" stroke="#2E6295"/>
+<text x="1254.0" y="190.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Kontener: baza danych</text>
+<line x1="1206" y1="215" x2="1238" y2="215" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="1254.0" y="220.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Relacja (strzałka od strony wywołującej)</text>
+<rect x="546.7" y="313.9" width="77.0" height="24.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="585.2" y="331.4" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Gra w grę</text>
+<rect x="717.0" y="315.3" width="126.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="780.0" y="332.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Sprawdza ranking</text>
+<text x="780.0" y="347.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[HTTPS]</text>
+<rect x="922.3" y="313.9" width="105.0" height="24.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="974.8" y="331.4" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Ogląda Top 10</text>
+<rect x="163.0" y="654.8" width="154.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="240.0" y="672.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Przesyła PID i wynik</text>
+<text x="240.0" y="687.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[radio / UART]</text>
+<rect x="422.0" y="807.0" width="175.0" height="56.0" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="509.5" y="824.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Wysyła wynik: POST</text>
+<text x="509.5" y="841.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">AddScore(GUID, INT, DT)</text>
+<text x="509.5" y="856.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[HTTP, JSON]</text>
+<rect x="668.0" y="646.5" width="224.0" height="56.0" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="780.0" y="664.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Pobiera listę wyników: fetch()</text>
+<text x="780.0" y="680.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">→ GET</text>
+<text x="780.0" y="695.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[HTTP, JSON]</text>
+<rect x="976.9" y="655.0" width="147.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="1050.4" y="672.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Pobiera Top 10: GET</text>
+<text x="1050.4" y="687.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[HTTP, JSON]</text>
+<rect x="948.0" y="815.2" width="203.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="1049.5" y="832.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Zapisuje i odczytuje wyniki</text>
+<text x="1049.5" y="847.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[SQL]</text>
+</svg>

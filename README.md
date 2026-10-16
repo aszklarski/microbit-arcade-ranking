@@ -12,3 +12,5 @@ Robimy grę zręcznościową na platformie Microbit. Wynik i identyfikator użyt
 - React + Vite – robimy w tym stronę WWW z rankingiem.
 - OLED/LCD podłączony do Arduino – pokazuje ranking na fizycznym urządzeniu.
 - Vercel – może darmowo hostować naszą stronę WWW.
+
+Architektura z tablicy w modelu C4 (diagramy C1–C4 i diagram dynamiczny): [docs/c4](docs/c4/README.md).

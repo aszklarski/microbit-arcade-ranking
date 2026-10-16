@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1060" width="1500" height="1060" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B6B"/></marker><marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L11,6 L0,12" fill="none" stroke="#6B6B6B" stroke-width="1.6"/></marker></defs>
+<rect width="1500" height="1060" fill="#FFFFFF"/>
+<text x="40.0" y="48.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#111" text-anchor="start">[Komponenty] Bramka wyników (Arduino)</text>
+<text x="40.0" y="75.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#555" text-anchor="start">C4 – poziom 3. Jak Arduino zamienia dane z micro:bita na żądanie HTTP.</text>
+<rect x="80" y="350" width="1340" height="400" rx="10" fill="none" stroke="#8A8A8A" stroke-width="1.6" stroke-dasharray="9 6"/>
+<text x="98.0" y="714.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333" text-anchor="start">Bramka wyników</text>
+<text x="98.0" y="733.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#666" text-anchor="start">[Kontener: Arduino + Wi-Fi, C++]</text>
+<line x1="287.3" y1="283.0" x2="283.0" y2="426.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="413.0" y1="525.0" x2="616.0" y2="525.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="883.0" y1="525.0" x2="1086.0" y2="525.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<line x1="1220.0" y1="623.0" x2="1220.0" y2="836.0" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="150" y="110" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="290.0" y="166.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gra</text>
+<text x="290.0" y="182.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: micro:bit, MakeCode]</text>
+<text x="290.0" y="203.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">Gra zręcznościowa. Po rozgrywce</text>
+<text x="290.0" y="219.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">wysyła identyfikator gracza (PID) i</text>
+<text x="290.0" y="235.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">wynik (SCORE).</text>
+<rect x="150" y="430" width="260" height="190" rx="10" fill="#85BBF0" stroke="#5D82A8" stroke-width="1.5"/>
+<text x="280.0" y="504.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0B2440" text-anchor="middle">Odbiornik danych</text>
+<text x="280.0" y="520.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F3B5C" text-anchor="middle">[Komponent: C++, Serial / radio]</text>
+<text x="280.0" y="541.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">Odbiera surowe bajty wysłane</text>
+<text x="280.0" y="557.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">przez micro:bita.</text>
+<rect x="620" y="430" width="260" height="190" rx="10" fill="#85BBF0" stroke="#5D82A8" stroke-width="1.5"/>
+<text x="750.0" y="496.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0B2440" text-anchor="middle">Konwerter bit → klasa</text>
+<text x="750.0" y="512.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F3B5C" text-anchor="middle">[Komponent: C++]</text>
+<text x="750.0" y="533.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">Zamienia odebrane bity na obiekt</text>
+<text x="750.0" y="549.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">wyniku: ID (GUID), SCORE (INT),</text>
+<text x="750.0" y="565.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">TIMESTAMP (DATETIME).</text>
+<rect x="1090" y="430" width="260" height="190" rx="10" fill="#85BBF0" stroke="#5D82A8" stroke-width="1.5"/>
+<text x="1220.0" y="504.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0B2440" text-anchor="middle">Klient HTTP</text>
+<text x="1220.0" y="520.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F3B5C" text-anchor="middle">[Komponent: C++, Wi-Fi, HTTPClient]</text>
+<text x="1220.0" y="541.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">Zamienia obiekt na JSON i wysyła</text>
+<text x="1220.0" y="557.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#0B2440" text-anchor="middle">go do Web API.</text>
+<rect x="1080" y="840" width="280" height="170" rx="10" fill="#438DD5" stroke="#2E6295" stroke-width="1.5"/>
+<text x="1220.0" y="896.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Web API</text>
+<text x="1220.0" y="912.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#E6EFF9" text-anchor="middle">[Kontener: C#, ASP.NET Core]</text>
+<text x="1220.0" y="933.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">CRUD wyników. GameController: POST</text>
+<text x="1220.0" y="949.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">AddScore zapisuje wynik, GET zwraca</text>
+<text x="1220.0" y="965.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#FFFFFF" text-anchor="middle">listę wyników.</text>
+<rect x="80" y="820" width="330" height="166" rx="8" fill="#FAFAFA" stroke="#D0D0D0"/>
+<text x="96.0" y="846.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#333" text-anchor="start">Legenda</text>
+<rect x="96" y="864" width="36" height="22" rx="4" fill="none" stroke="#8A8A8A" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="144.0" y="880.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Granica kontenera</text>
+<rect x="96" y="894" width="36" height="22" rx="4" fill="#438DD5"/>
+<text x="144.0" y="910.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Kontener</text>
+<rect x="96" y="924" width="36" height="22" rx="4" fill="#85BBF0"/>
+<text x="144.0" y="940.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Komponent</text>
+<line x1="96" y1="965" x2="128" y2="965" stroke="#6B6B6B" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="144.0" y="970.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#333" text-anchor="start">Relacja</text>
+<rect x="208.5" y="323.3" width="154.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="285.5" y="340.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Przesyła PID i wynik</text>
+<text x="285.5" y="355.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[radio / UART]</text>
+<rect x="451.5" y="512.8" width="126.0" height="24.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="514.5" y="530.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Przekazuje bajty</text>
+<rect x="893.5" y="512.8" width="182.0" height="24.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="984.5" y="530.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">Przekazuje obiekt wyniku</text>
+<rect x="1115.0" y="692.7" width="210.0" height="39.5" rx="4" fill="#FFFFFF" fill-opacity="0.94"/>
+<text x="1220.0" y="710.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#222" text-anchor="middle">POST AddScore(GUID, INT, DT)</text>
+<text x="1220.0" y="725.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#666" text-anchor="middle">[HTTP, JSON]</text>
+</svg>
