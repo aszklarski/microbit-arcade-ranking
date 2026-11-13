@@ -14,3 +14,5 @@ Robimy grę zręcznościową na platformie Microbit. Wynik i identyfikator użyt
 - Vercel – może darmowo hostować naszą stronę WWW.
 
 Architektura z tablicy w modelu C4 (diagramy C1–C4 i diagram dynamiczny): [docs/c4](docs/c4/README.md).
+
+Baza danych i API w Supabase (zapis wyniku, ranking Top 10): [supabase](supabase/README.md).
